@@ -4,9 +4,7 @@
   "description": "Simplify your financial transactions with our cutting-edge ATM machine",
   "main": "index.js",
   "type": "module",
-  "bin": {
-    "aqpr03-atm-machine": "index.js"
-  },
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -52,7 +52,7 @@ if (pinAnswer.pincode === mypin) {
 
 //line5
     else if (operationAns.operation === "check balance") {
-        console.log(`"Your balance is:"  ${myBalance}`)
+        console.log(`Your balance is:  ${myBalance}`)
     } 
     
 //line6    
@@ -71,19 +71,19 @@ else if (operationAns.operation === "fastcash") {
 //line7
         if (fastCash.fast_cash == 10000) {
             myBalance -= fastCash.fast_cash;
-            console.log(`"Your remaining balance is:" , ${myBalance} `)
+            console.log(`Your remaining balance is: ${myBalance} `)
         }
         else if (fastCash.fast_cash == 15000) {
             myBalance -= fastCash.fast_cash;
-            console.log(`"Your remaining balance is:" , ${myBalance} `)
+            console.log(`Your remaining balance is: ${myBalance} `)
         }
         else if (fastCash.fast_cash == 20000) {
             myBalance -= fastCash.fast_cash;
-            console.log(`"Your remaining balance is:" , ${myBalance} `)
+            console.log(`Your remaining balance is: ${myBalance} `)
         }
         else if (fastCash.fast_cash == 25000) {
             myBalance -= fastCash.fast_cash;
-            console.log(`"Your remaining balance is:" , ${myBalance} `)
+            console.log(`Your remaining balance is: ${myBalance} `)
         }
 
     }
